@@ -13,7 +13,12 @@ body {
 body {
   display: grid;
   place-items: center; /*Sets both properties (justify-content and align-items)  */ 
-  background-color: #fafafa;
+}
+
+main {
+  background-image: url('/images/background.svg');
+  width: 375px;
+  height: 812px;
 }
 
 h1 {
